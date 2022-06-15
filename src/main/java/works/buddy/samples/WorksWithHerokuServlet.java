@@ -13,7 +13,7 @@ public class WorksWithHerokuServlet extends HttpServlet {
         response.setContentType("text/plain");
         response.setStatus(404);
         PrintWriter writer = response.getWriter();
-        writer.print("MONISH GOING TO HYDERABAD");
+        writer.print("MONISH IS GOING TO HYDERABAD");
         writer.close();
     }
 }
