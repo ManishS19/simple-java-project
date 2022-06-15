@@ -36,6 +36,6 @@ public class WorksWithHerokuServletTest {
         when(response.getWriter()).thenReturn(writer);
 
         servlet.doGet(request, response);
-        assertEquals("MONISH GOING TO HYDERABAD", new String( out.toByteArray(), "UTF-8"));
+        assertEquals("MONISH IS GOING TO HYDERABAD", new String( out.toByteArray(), "UTF-8"));
     }
 }
